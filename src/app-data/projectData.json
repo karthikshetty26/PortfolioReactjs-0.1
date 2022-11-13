@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "PName":"Weather application - React Js",
+        "PTech": ["HTML","CSS","JS","React Js"],
+        "PDescription":"Live weather application using react js and OpenWeatherMap API",
+        "PCodeLink":"https://github.com/karthik-lezer/Weather-Application-0.0",
+        "PDemoLink": "https://weatherapplication-karthik.netlify.app/"
+    },
+    {
+        "id":"2",
+        "PName":"Markcalculator - VTU mark calculator",
+        "PTech": ["HTML","CSS","JS"],
+        "PDescription":"A website where VTU students can calculate their exam marks.",
+        "PCodeLink": null,
+        "PDemoLink": null
+    },
+    {
+        "id":"3",
+        "PName":"Portfolio - React js",
+        "PTech": ["HTML","CSS","JS","JSON","React Js"],
+        "PDescription":"Personal portfolio website using react.",
+        "PCodeLink": null,
+        "PDemoLink": null
+    }
+]

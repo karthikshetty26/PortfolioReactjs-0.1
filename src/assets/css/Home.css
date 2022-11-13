@@ -1,0 +1,133 @@
+.home-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.home-main-div {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3px 20px;
+}
+
+.home-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-img-div img {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: var(--main-c-1);
+    border-radius: 50%;
+    border: 8px solid var(--main-c-4);
+    box-shadow: 0 0 10px var(--main-c-3);
+
+    transition: all 0.5s ease-in-out;
+}
+
+.home-img-div img:hover {
+    border: 15px solid var(--main-c-5);
+    box-shadow: 0 0 12px var(--main-c-5);
+}
+
+.home-content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: 20px 0;
+}
+
+.home-content-div h2 {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--font-c-1);
+
+    text-align: center;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.home-content-div h2 br {
+    display: none;
+}
+
+.home-content-div p {
+    letter-spacing: 1.5px;
+    color: var(--font-c-4);
+
+    opacity: 1;
+}
+
+.home-social-link {
+    position: absolute;
+    bottom: 10px;
+
+    width: 100%;
+}
+
+.home-social-link-ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3px 20px;
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.home-social-link-ul a {
+    margin: 0 15px;
+}
+
+.home-social-link-ul li a i {
+    font-size: 1.5rem;
+    color: var(--font-c-1);
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+}
+
+.home-social-link-ul li a:hover i {
+    opacity: 1;
+    color: var(--font-c-4);
+}
+
+@media only screen and (max-width: 500px) {
+    .home-img-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .home-img-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-content-div h2 br {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .home-content-div h2 {
+        font-size: 1.4rem;
+    }
+}

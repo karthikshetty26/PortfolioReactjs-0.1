@@ -1,0 +1,26 @@
+{
+    "name": "Karthik Shetty",
+    "DOB": "26/08/2000",
+    "educations":[
+        {
+            "id":1,
+            "EName": "B.E (CSE)",
+            "EYear": "2018 - 2022",
+            "EFrom": "Sahyadri College of Engineering and Management, Adyar, Mangaluru, Karnataka."
+        },
+        {
+            "id":2,
+            "EName": "12th standard (PUC)",
+            "EYear": "2017 - 2018",
+            "EFrom": "Vivekananda Pre-University College, Puttur, Karnataka."
+        },
+        {
+            "id":3,
+            "EName": "10th standard (SSLC)",
+            "EYear": "2015 - 2016",
+            "EFrom": "Sri Sathya Sai Loka Seva High School, Alike, Karnataka."
+        }
+    ],
+    "skills":["HTML","CSS","JavaScript","C/C++"],
+    "languages":["English","Hindi","Kannada","Tulu"]
+}

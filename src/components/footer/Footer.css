@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: auto;
+}
+
+.footer-section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-section hr {
+    width: 80%;
+    margin: 0 auto;
+
+    border: 1px solid var(--main-c-1);
+    opacity: 0.4;
+}
+
+.footer-content {
+    padding-top: 10px;
+    color: var(--font-c-2);
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+}

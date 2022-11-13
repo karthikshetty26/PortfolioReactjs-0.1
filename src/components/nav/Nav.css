@@ -1,0 +1,167 @@
+nav {
+    position: fixed;
+    z-index: 3;
+    
+    width: 100%;
+    height: 40px;
+    background-color: var(--main-c-1);
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-main-hold {
+    position: relative;
+    max-width: 1200px;
+    height: auto;
+    margin: 3px auto;
+    padding: 3px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 30px; */
+
+    z-index: 10;
+}
+
+.nav-logo-div a {
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo-div a h1 {
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    color: var(--font-c-4);
+    opacity: 0.5;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-logo-div a:hover h1 {
+    opacity: 0.8;
+}
+
+/* .nav-logo {
+    height: 30px;
+    margin: auto;
+} */
+
+.nav-content-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-hold {
+    display: flex; 
+    list-style: none;
+}
+
+.nav-link-hold li {
+    margin: 0 10px;
+}
+
+.nav-link-hold li a{
+    text-decoration: none;
+
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    color: var(--font-c-2);
+    opacity: 0.35;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link-hold li:hover a{
+    color: var(--font-c-2);
+    opacity: 0.9;
+}
+
+.nav-btn-div {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 10;
+}
+
+.menu-btn-div {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.menu-btn-div i{
+    width: 100%;
+    font-size: 2rem;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    color: var(--font-c-2);
+    opacity: 0.35;    
+    transition: all 0.3s ease-in-out;
+ }
+
+.material-icons.addBTN {
+    color: var(--font-c-2);
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-main-hold {
+        margin: 0px auto;
+    }
+
+    .nav-content-div .DLBtn-div {
+        display: none;
+    }
+
+    .nav-link-hold {
+        position: fixed;
+        bottom: 0;
+        left: -100%;
+
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 100vh;
+
+        z-index: 5;
+        background-color: var(--main-c-1);
+
+        transition: all 0.4s ease-out;
+    }
+
+    .nav-link-hold li {
+        margin-bottom: 10px;
+    }
+
+    .nav-link-hold li a{
+        font-size: 1.4rem;
+        opacity: 0.5;
+        letter-spacing: 2px;
+    }
+
+    .nav-link-hold.addLINK {
+        left: 0;
+    }
+
+    .nav-btn-div {
+        display: flex;
+    }
+}

@@ -1,0 +1,22 @@
+.DLBtn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.DLBtn-div i {
+    width: 100%;
+    font-size: 1.1rem;
+    color: var(--font-c-2);
+    opacity: 0.35; 
+
+    transition: all 0.3s ease-in-out;
+}
+
+.DLBtn-div:hover i {
+    color: var(--font-c-2);
+    opacity: 0.9;
+}
